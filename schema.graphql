@@ -1,0 +1,8 @@
+type Transfer @entity {
+  # contract address + token ID
+  id: ID!
+  tokenId: BigInt! # uint256
+  contractAddress: Bytes! # address
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}

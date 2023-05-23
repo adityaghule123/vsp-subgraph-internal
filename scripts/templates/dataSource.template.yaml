@@ -1,0 +1,20 @@
+  - kind: ethereum
+    name: {{collectionName}}
+    network: {{network}}
+    source:
+      address: "{{contractAddress}}"
+      abi: ERC721
+      startBlock: {{startBlock}}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Transfer
+      abis:
+        - name: ERC721
+          file: ./abis/ERC721.json
+      eventHandlers:
+        - event: Transfer(indexed address,indexed address,indexed uint256)
+          handler: handleTransfer
+      file: ./src/mappings.ts

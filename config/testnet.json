@@ -1,0 +1,74 @@
+[
+    {
+        "network": "goerli",
+        "collectionName": "Vsp",
+        "contractAddress": "0x13baeC5b71a33b8b236577775a7C134B8549fDE9",
+        "startBlock": 8163212
+    },
+    {
+        "network": "goerli",
+        "collectionName": "BlackCard",
+        "contractAddress": "0x729F069c34b1465Fb8e6b8CD8F3865bdb4d86f1d",
+        "startBlock": 8162026
+    },
+    {
+        "network": "goerli",
+        "collectionName": "VeeFriends",
+        "contractAddress": "0x123f861f0af0103779090de251e9980fd2647dab",
+        "startBlock": 7638351
+    },
+    {
+        "network": "goerli",
+        "collectionName": "Mfers",
+        "contractAddress": "0xB224162b7461aF9DF86C7d13cBC5ed689204C4Af",
+        "startBlock": 7727240
+    },
+    {
+        "network": "goerli",
+        "collectionName": "VspParticipation",
+        "contractAddress": "0x43cDFF6ae73fD6e438972e801D783ab73554321f",
+        "startBlock": 7789457
+    },
+    {
+        "network": "goerli",
+        "collectionName": "DegenToonz",
+        "contractAddress": "0x9a78F91F32f8960B62EA7276775a65d33b630B6E",
+        "startBlock": 7795234
+    },
+    {
+        "network": "goerli",
+        "collectionName": "SportsThings",
+        "contractAddress": "0x985a57B003e1E6C5BE82941F57706C7a7CdCD97e",
+        "startBlock": 7877798
+    },
+    {
+        "network": "goerli",
+        "collectionName": "Quirkies",
+        "contractAddress": "0xdc7B62E4Bd54d827DD37c5E654c4Df9255b09d7D",
+        "startBlock": 7998265
+    },
+    {
+        "network": "goerli",
+        "collectionName": "VspSplash",
+        "contractAddress": "0x4F7FdAa12924Ee2d9B02FE8E7d6564b132AdeE27",
+        "startBlock": 8303056
+    },
+    {
+        "network": "goerli",
+        "collectionName": "CryptoonGoonz",
+        "contractAddress": "0xDccF91012b640E05D07b30D7b143f0DE5e9fe1D0",
+        "startBlock": 8420008
+    },
+    {
+        "network": "goerli",
+        "collectionName": "CryptoonGoonzPortal",
+        "contractAddress": "0x2F05c20369A97C2E1F674715533c71525030645c",
+        "startBlock": 8420207
+    },
+    {
+        "network": "goerli",
+        "collectionName": "LocalWeather",
+        "contractAddress": "0x19A63F76623FcE8b1F24856939673C976e4562E4",
+        "startBlock": 8811770
+    }
+]

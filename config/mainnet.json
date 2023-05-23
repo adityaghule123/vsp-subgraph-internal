@@ -1,0 +1,74 @@
+[
+    {
+        "network": "mainnet",
+        "collectionName": "Vsp",
+        "contractAddress": "0xbce6d2aa86934af4317ab8615f89e3f9430914cb",
+        "startBlock": 14527522
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "BlackCard",
+        "contractAddress": "0x8a54f54Cf79a88347aDDE5Ee51310D2535be5017",
+        "startBlock": 15397260
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "VeeFriends",
+        "contractAddress": "0xa3AEe8BcE55BEeA1951EF834b99f3Ac60d1ABeeB",
+        "startBlock": 12414465
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "Mfers",
+        "contractAddress": "0x79FCDEF22feeD20eDDacbB2587640e45491b757f",
+        "startBlock": 13711155
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "VspParticipation",
+        "contractAddress": "0x2acD63cD5991b96E0A8b56a45bbB246afff3D2d0",
+        "startBlock": 15739544
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "DegenToonz",
+        "contractAddress": "0x19b86299c21505cdf59cE63740B240A9C822b5E4",
+        "startBlock": 14201482
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "SportsThings",
+        "contractAddress": "0x41aC9FEe31050Bb72A5eea1435A21b22589697da",
+        "startBlock": 15047971
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "Quirkies",
+        "contractAddress": "0x3903d4fFaAa700b62578a66e7a67Ba4cb67787f9",
+        "startBlock": 14169578
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "VspSplash",
+        "contractAddress": "0xa9c9CE93EAb7AF5342EF3a57fB9f6A0536B0c636",
+        "startBlock": 15646701
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "CryptoonGoonz",
+        "contractAddress": "0x0322F6f11A94CFB1b5B6E95E059d8DEB2bf17D6A",
+        "startBlock": 13436977
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "CryptoonGoonzPortal",
+        "contractAddress": "0xeF87529Ca9c67a849bD7013837fC42d4DE92ca82",
+        "startBlock": 14845075
+    },
+    {
+        "network": "mainnet",
+        "collectionName": "LocalWeather",
+        "contractAddress": "0x2136D2df68C29331352ADDDc4488ff7217EE21Be",
+        "startBlock": 14897966
+    }
+]
