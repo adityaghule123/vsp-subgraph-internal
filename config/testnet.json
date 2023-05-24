@@ -63,7 +63,7 @@
         "network": "goerli",
         "collectionName": "CryptoonGoonzPortal",
         "contractAddress": "0x2F05c20369A97C2E1F674715533c71525030645c",
-        "startBlock": 8420207
+        "startBlock": 8420200
     },
     {
         "network": "goerli",
