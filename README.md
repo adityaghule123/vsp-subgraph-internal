@@ -56,3 +56,15 @@ $ yarn deploy:testnet
 # deploy mainnet subgraph
 $ yarn deploy:mainnet
 ```
+
+## To add a new NFT collection
+```bash 
+# in the corresponding config file add the following object in the array
+{
+    "network": "mainnet",
+    "collectionName": "NftContract",
+    "contractAddress": "0x123....",
+    "startBlock": 123456789
+}
+```
+

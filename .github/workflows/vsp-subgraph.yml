@@ -1,0 +1,32 @@
+name: Subgraph Deployment
+
+on:
+  push:
+    branches:
+      - staging
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Set execute permission for deploy script
+        run: chmod +x ./.github/workflows/scripts/deploy.sh
+
+      - name: Deploy Subgraph
+        env:
+          ENVIRONMENT: ${{ github.ref }}
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        run: ./.github/workflows/scripts/deploy.sh $ENVIRONMENT $DEPLOY_KEY
